@@ -39,7 +39,7 @@ repo_uptodate() {
 gen_version=$(git rev-parse --short HEAD)
 
 provider_name=newrelic
-provider_repo="github.com/newrelic/terraform-provider-$provider_name"
+provider_repo="github.com/newrelic/terraform-provider-$provider_name/v2"
 provider_version=$(go mod edit -json | jq -r ".Require[] | select(.Path == \"${provider_repo}\") | .Version")
 echo "$provider_version"
 
