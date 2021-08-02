@@ -41,7 +41,7 @@ func main() {
 		ProviderName:         "newrelic",
 		ProviderNameOriginal: "newrelic",
 		ProviderData:         newrelic.Provider(),
-		ProviderImportPath:   "github.com/newrelic/terraform-provider-newrelic/newrelic",
+		ProviderImportPath:   "github.com/newrelic/terraform-provider-newrelic/v2/newrelic",
 		Version:              "v1alpha1",
 		APIsPath:             apisPath,
 		ControllerPath:       controllerPath,
