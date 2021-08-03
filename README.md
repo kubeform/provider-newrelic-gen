@@ -3,7 +3,7 @@
 
 # Kubeform Newrelic Provider Code Generator
 
-Generates code for Kubeform Newrelic Provider
+Kubeform code generator for [Terraform Newrelic Provider](https://github.com/newrelic/terraform-provider-newrelic)
 
 ## Installation
 
